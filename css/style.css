@@ -49,7 +49,7 @@ table {
 
 .wrap {
     margin: 0 auto 0;
-    width: 800px;
+    width: 1024px;
 }
 
 .header {
@@ -62,4 +62,28 @@ table {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.course {
+    display: flex;
+    justify-content: space-around;
+}
+.course-item {
+    border: 2px solid black;
+    width: 300px;
+    padding: 20px;
+}
+.course-item h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.course-item p {
+    line-height: 1.5;
+    text-align: center;
 }
